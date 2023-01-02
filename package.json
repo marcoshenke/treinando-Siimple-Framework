@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@siimple/colors": "^0.3.1",
+    "siimple": "^4.3.1"
+  }
+}
