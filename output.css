@@ -398,6 +398,26 @@ to {transform:rotate(359deg);}
 @media screen and (min-width: 1264px) {
 .has-w-messiGoat-desktop {width:40rem;}
 }
+.has-w-cardW {width:20rem;}
+@media screen and (max-width: 640px) {
+.has-w-cardW-mobile {width:20rem;}
+}
+@media screen and (min-width: 640px) {
+.has-w-cardW-tablet {width:20rem;}
+}
+@media screen and (min-width: 1264px) {
+.has-w-cardW-desktop {width:20rem;}
+}
+.has-w-cardH {width:25rem;}
+@media screen and (max-width: 640px) {
+.has-w-cardH-mobile {width:25rem;}
+}
+@media screen and (min-width: 640px) {
+.has-w-cardH-tablet {width:25rem;}
+}
+@media screen and (min-width: 1264px) {
+.has-w-cardH-desktop {width:25rem;}
+}
 .has-h-0 {height:0px;}
 @media screen and (max-width: 640px) {
 .has-h-0-mobile {height:0px;}
@@ -497,6 +517,26 @@ to {transform:rotate(359deg);}
 }
 @media screen and (min-width: 1264px) {
 .has-h-messiGoat-desktop {height:40rem;}
+}
+.has-h-cardW {height:20rem;}
+@media screen and (max-width: 640px) {
+.has-h-cardW-mobile {height:20rem;}
+}
+@media screen and (min-width: 640px) {
+.has-h-cardW-tablet {height:20rem;}
+}
+@media screen and (min-width: 1264px) {
+.has-h-cardW-desktop {height:20rem;}
+}
+.has-h-cardH {height:25rem;}
+@media screen and (max-width: 640px) {
+.has-h-cardH-mobile {height:25rem;}
+}
+@media screen and (min-width: 640px) {
+.has-h-cardH-tablet {height:25rem;}
+}
+@media screen and (min-width: 1264px) {
+.has-h-cardH-desktop {height:25rem;}
 }
 .has-p-0 {padding:0px !important;}
 @media screen and (max-width: 640px) {

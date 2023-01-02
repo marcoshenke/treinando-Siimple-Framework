@@ -28,7 +28,9 @@ export default {
         "1": "0.25rem",
         "2": "0.5rem",
         "4": "10rem",
-        messiGoat: "40rem"
+        messiGoat: "40rem",
+        cardW: "20rem",
+        cardH: "25rem"
         // ...other sizes
     },
 
