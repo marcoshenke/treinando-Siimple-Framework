@@ -28,10 +28,12 @@ export default {
         "1": "0.25rem",
         "2": "0.5rem",
         "4": "10rem",
+        "5": "12vw",        
+        p: "1.75vw",
         messiGoat: "40rem",
-        cardW: "20rem",
-        cardH: "25rem",
-        button: "17rem",
+        cardW: "20vw",
+        cardH: "30vh",
+        button: "35vw",
         // ...other sizes
     },
     layout: {
@@ -41,6 +43,9 @@ export default {
         container2: {
             maxWidth: "750px",
         },
+        card: {
+            fontSize: "1vw",
+        }
     },
 
     alerts: {
@@ -65,5 +70,34 @@ export default {
             min: "1200px",
         },
     },
+
+    styles: {
+        "h1": {
+            
+            fontSize: "4.5vw",
+        },
+        "p": {
+            fontSize: "2vw"
+        },
+        ".has-size-p": {
+            fontSize: "2vw",},
+        ".has-size-p-pagcolors": {
+            fontSize: "1.5vw"
+        },
+        ".has-size-dropdown": {
+            fontSize: "1.35vw"
+        },
+
+        ".has-w-img-pagcolors": {
+            width: "24vw"
+        },
+        ".has-size-title": {
+            fontSize: "3.5vw"
+        }
+
+        
+    }, 
+
+   
     //
 };
