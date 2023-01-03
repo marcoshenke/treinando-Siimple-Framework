@@ -30,8 +30,17 @@ export default {
         "4": "10rem",
         messiGoat: "40rem",
         cardW: "20rem",
-        cardH: "25rem"
+        cardH: "25rem",
+        button: "17rem",
         // ...other sizes
+    },
+    layout: {
+        container: {
+            maxWidth: "1264px",
+        },
+        container2: {
+            maxWidth: "750px",
+        },
     },
 
     alerts: {
@@ -45,4 +54,16 @@ export default {
             color: "white"
         },
     },
+    breakpoints: {
+        mobile: {
+            max: "600px",
+        },
+        tablet: {
+            min: "715px",
+        },
+        desktop: {
+            min: "1200px",
+        },
+    },
+    //
 };
