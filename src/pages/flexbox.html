@@ -10,16 +10,54 @@
     
     <title>Framework Simple: flexbox</title>
 </head>
-<body class="has-w-screen has-h-screen has-bg-messiGoat is-flex has-direction-column has-items-center has-justify-around" >
+<body class="has-bg-messiGoat is-flex has-direction-column has-items-center has-justify-around" >
     
-        <h1 class="has-weight-bold has-text-white has-text-center has-size-title">flexbox no Siimple</h1>
+        <h1 class="has-weight-bold has-text-white has-text-center has-size-title">Flexbox</h1>
         
         
-        <p class="has-w-half has-size-p-pagcolors">O flexbox no siimple para funcionar basta colocar dentro de class is-flex</p>
+        <p class="has-w-vw80">O flexbox no siimple para funcionar basta colocar dentro de class is-flex</p>
+        <p class="has-w-vw80 has-size-p-mobile">Você pode direcionar que os elementos fiquem em linha(row) com a classe has-direction-row e em colunas com has-direction-column. </p>
 
-        <img class="has-w-img-pagcolors" src="../../assets/images/space.png" alt="como configura o size das caixas">            
+        <div class="is-flex has-direction-row has-items-center">
+            
+            <div class="has-m-2 has-p-6 is-rounded has-bg-primary">1</div>
+            <div class="has-m-2 has-p-6 is-rounded has-bg-primary">2</div>
+            <div class="has-m-2 has-p-6 is-rounded has-bg-primary">3</div>
+           
+        </div>
+
+        <div class="is-flex has-direction-column has-items-center">
+            
+            <div class="has-m-2 has-p-6 is-rounded has-bg-primary">1</div>
+            <div class="has-m-2 has-p-6 is-rounded has-bg-primary">2</div>
+            <div class="has-m-2 has-p-6 is-rounded has-bg-primary">3</div>
+           
+        </div>
+
+        <p class="has-w-vw80">A propriedade align content funciona com a sintaxe has-content-(center/start/end/between/around/evenly). Olha como fica com has-content-start:</p>
+        <div class="is-flex has-content-start has-h-5 has-w-half has-flex-wrap has-bg-primary has-mb-6 has-w-vw80-mobile">
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary">1</div>
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary">2</div>
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary">3</div>
+        </div>
+       
+        <p class="has-w-vw80">Para usar o Align self, escolha um ou mais item que queira aplicar separado dos demais, na class coloque has-self-(auto/start/end/center/stretch/baseline). Olha como o has-self-stretch funciona na div 2:</p>
+        <div class="is-flex has-items-end has-h-5 has-mb-6 has-w-vw80 has-text-center">
+            <div class="has-w-full has-m-2 has-p-4 is-rounded has-bg-primary">1</div>
+            <div class="has-w-full has-m-2 has-p-4 is-rounded has-bg-secondary has-self-stretch">2</div>
+            <div class="has-w-full has-m-2 has-p-4 is-rounded has-bg-primary">3</div>
+        </div>
+        <p class="has-w-vw80">Para usar o justify content a sintaxe é has-justify-(left/center/right/between/around/evenly). Vamo ver o has-justify-left na prática</p>
+        <div class="is-flex has-justify-left has-text-center has-bg-secondary has-mb-6 has-w-vw80">
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary">1</div>
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary">2</div>
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary">3</div>
+        </div>
+       
+
         
-        
+
+               
 
         <a href="./flexbox.html" class=" has-size-p button is-primary has-text-white has-bg-tertiary-hover has-w-button">Próxima página</a>
 

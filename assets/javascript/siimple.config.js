@@ -28,12 +28,16 @@ export default {
         "1": "0.25rem",
         "2": "0.5rem",
         "4": "10rem",
-        "5": "12vw",        
+        "5": "12rem",        
         p: "1.75vw",
         messiGoat: "40rem",
         cardW: "20vw",
         cardH: "30vh",
         button: "35vw",
+        rem2: "2rem",
+        vw80: "80vw",
+        vh18: "18vh",
+
         // ...other sizes
     },
     layout: {
@@ -77,10 +81,10 @@ export default {
             fontSize: "4.5vw",
         },
         "p": {
-            fontSize: "2vw"
+            fontSize: "1.5rem"
         },
         ".has-size-p": {
-            fontSize: "2vw",},
+            fontSize: "1rem",},
         ".has-size-p-pagcolors": {
             fontSize: "1.5vw"
         },
@@ -92,11 +96,22 @@ export default {
             width: "24vw"
         },
         ".has-size-title": {
-            fontSize: "3.5vw"
-        }
-
+            fontSize: "2.2rem"
+        },
+    },    
+    
+    space: {
+            "0": "0px",
+            "1": "0.25rem",
+            "2": "0.5rem",
+            "4": "1rem",
+            "5": "1.5rem",
+            "6": "2rem"
+            // ...other sizes
+        },
         
-    }, 
+     
+
 
    
     //
