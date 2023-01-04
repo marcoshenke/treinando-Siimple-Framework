@@ -37,6 +37,7 @@ export default {
         rem2: "2rem",
         vw80: "80vw",
         vh18: "18vh",
+        rem4: "4rem",
 
         // ...other sizes
     },
