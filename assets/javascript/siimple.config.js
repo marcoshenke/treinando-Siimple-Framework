@@ -38,6 +38,7 @@ export default {
         vw80: "80vw",
         vh18: "18vh",
         rem4: "4rem",
+        
 
         // ...other sizes
     },
@@ -99,6 +100,9 @@ export default {
         ".has-size-title": {
             fontSize: "min(70px, 6vw)"
         },
+        ".has-size-ppagedropdown": {
+            fontSize: "1.5rem",
+        }
     },    
     
     space: {
