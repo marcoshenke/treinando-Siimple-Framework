@@ -10,7 +10,7 @@
     
     <title>Framework Simple: flexbox</title>
 </head>
-<body class="has-bg-messiGoat is-flex has-direction-column has-items-center has-justify-around" >
+<body class="has-bg-messiGoat is-flex has-direction-column has-items-center has-justify-around is-scrollable" >
     
         <h1 class="has-weight-bold has-text-white has-text-center has-size-title">Flexbox</h1>
         
@@ -34,14 +34,14 @@
            
         </div>
 
-        <p class="has-w-vw80">A propriedade align content funciona com a sintaxe has-content-(center/start/end/between/around/evenly). Olha como fica com has-content-start:</p>
+        <p class="has-w-vw80 has-size-p-mobile">A propriedade align content funciona com a sintaxe has-content-(center/start/end/between/around/evenly). Olha como fica com has-content-start:</p>
         <div class="is-flex has-content-start has-h-5 has-w-half has-flex-wrap has-bg-primary has-mb-6 has-w-vw80-mobile">
             <div class="has-m-2 has-p-4 is-rounded has-bg-primary">1</div>
             <div class="has-m-2 has-p-4 is-rounded has-bg-primary">2</div>
             <div class="has-m-2 has-p-4 is-rounded has-bg-primary">3</div>
         </div>
        
-        <p class="has-w-vw80">Para usar o Align self, escolha um ou mais item que queira aplicar separado dos demais, na class coloque has-self-(auto/start/end/center/stretch/baseline). Olha como o has-self-stretch funciona na div 2:</p>
+        <p class="has-w-vw80 has-size-p-mobile">Para usar o Align self, escolha um ou mais item que queira aplicar separado dos demais, na class coloque has-self-(auto/start/end/center/stretch/baseline). Olha como o has-self-stretch funciona na div 2:</p>
         <div class="is-flex has-items-end has-h-5 has-mb-6 has-w-vw80 has-text-center">
             <div class="has-w-full has-m-2 has-p-4 is-rounded has-bg-primary">1</div>
             <div class="has-w-full has-m-2 has-p-4 is-rounded has-bg-secondary has-self-stretch">2</div>
@@ -53,7 +53,12 @@
             <div class="has-m-2 has-p-4 is-rounded has-bg-primary">2</div>
             <div class="has-m-2 has-p-4 is-rounded has-bg-primary">3</div>
         </div>
-       
+        <p class="has-w-vw80">Para usar a propriedade flex-wrap basta usar a class has-flex-wrap:</p>
+        <div class="is-flex has-flex-wrap has-text-center has-justify-center has-mb-6">
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary has-w-4">1</div>
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary has-w-4">2</div>
+            <div class="has-m-2 has-p-4 is-rounded has-bg-primary has-w-4">3</div>
+        </div>
 
         
 

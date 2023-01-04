@@ -49,6 +49,7 @@ export default {
         },
         card: {
             fontSize: "1vw",
+            padding: "1rem",
         }
     },
 
@@ -81,10 +82,9 @@ export default {
             fontSize: "4.5vw",
         },
         "p": {
-            fontSize: "1.5rem"
+            fontSize: "min(50px, 4vw)"
         },
-        ".has-size-p": {
-            fontSize: "1rem",},
+        
         ".has-size-p-pagcolors": {
             fontSize: "1.5vw"
         },
@@ -96,7 +96,7 @@ export default {
             width: "24vw"
         },
         ".has-size-title": {
-            fontSize: "2.2rem"
+            fontSize: "min(70px, 6vw)"
         },
     },    
     
@@ -110,8 +110,20 @@ export default {
             // ...other sizes
         },
         
-     
-
+    forms: {
+        label: {
+                color: "inherit",
+                fontWeight: "bold",
+                fontSize: "min(50px, 4vw)",
+            },
+        },
+        
+        button: {
+            default: {
+                fontSize: "min(50px, 4vw)",
+            },
+            
+        },
 
    
     //
